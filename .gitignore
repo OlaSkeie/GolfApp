@@ -6,6 +6,13 @@ __pycache__/
 # C extensions
 *.so
 
+# Rot-nivå. Hver undermappe har egen .gitignore for det spesifikke.
+.DS_Store
+
+# Sikkerhetsnett – aldri commit hemmeligheter
+.env
+*.env.local
+
 # Distribution / packaging
 .Python
 build/
