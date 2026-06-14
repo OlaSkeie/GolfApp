@@ -3,7 +3,7 @@
     "name": "_scaffold",
     "slug": "_scaffold",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/images/icon.png",
     "scheme": "scaffold",
     "userInterfaceStyle": "automatic",
@@ -33,6 +33,13 @@
             "image": "./assets/images/splash-icon.png",
             "imageWidth": 76
           }
+        }
+      ],
+      "expo-video",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Appen trenger tilgang til videobiblioteket for å analysere svingene dine."
         }
       ]
     ],

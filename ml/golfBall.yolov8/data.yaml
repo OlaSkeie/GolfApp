@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['golfball']
+
+roboflow:
+  workspace: ola-huus-skeie
+  project: golfball-4cqpt
+  version: dataset
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ola-huus-skeie/golfball-4cqpt/dataset/dataset

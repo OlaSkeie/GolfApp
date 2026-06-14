@@ -3,3 +3,8 @@ uvicorn[standard]
 python-multipart
 pydantic-settings
 google-genai
+ffmpeg-python
+opencv-python-headless
+numpy
+filterpy
+mediapipe
